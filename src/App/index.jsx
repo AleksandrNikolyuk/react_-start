@@ -63,7 +63,7 @@ class App extends Component {
             <button className={styles.green} type="button" onClick={addActors}>ADD</button>
           </div>
           <div className={styles['App-buttons']}>
-            <button type="button" onClick={clearList}>CLEAR</button>
+            <button className={styles.white} type="button" onClick={clearList}>CLEAR</button>
             <button className={styles.red} type="button" onClick={resetList}>RESET</button>
           </div>
         </header>
