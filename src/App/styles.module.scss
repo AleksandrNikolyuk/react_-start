@@ -1,5 +1,34 @@
+button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 18px;
+}
+input[type="text"] {
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  margin: 5px 5px 5px 5px;
+  border: 0;
+  font-size: calc(10px + 2vmin);
+  box-sizing: border-box;
+  border-bottom: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+}
+.red {
+  border: 2px solid red;
+  color: red;
+}
+.green {
+  border: 2px solid green;
+  color: green;
+}
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -21,6 +50,13 @@
 
 .App-link {
   color: #61dafb;
+}
+.App-buttons {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
